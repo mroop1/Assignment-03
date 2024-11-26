@@ -140,3 +140,8 @@ systemctl status generate-index.timer
  The server block might have issues accessing the server through server name and that localhost is not the correct one we need, and instead we should make it the public ip address to get a direct reference.
 
  External Network Issues on my own side where port 80 was being blocked.
+
+ 
+My Link is http://143.198.130.250 -- Use this to check
+
+
