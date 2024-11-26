@@ -1,0 +1,13 @@
+[Unit]
+Description=Generate index.html
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=webgen
+Group=webgen
+ExecStart=/var/lib/webgen/bin/generate_index
+
+[Install]
+WantedBy=multi-user.target
+
